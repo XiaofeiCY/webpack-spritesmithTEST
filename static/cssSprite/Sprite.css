@@ -16,13 +16,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-mail {
+.icon-aim {
   background-image: url(./Sprite.png);
   background-position: 0px 0px;
   width: 32px;
   height: 32px;
 }
-.icon-aim {
+.icon-behance {
   background-image: url(./Sprite.png);
   background-position: 0px -32px;
   width: 32px;
@@ -136,7 +136,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 32px;
   height: 32px;
 }
-.icon-behance {
+.icon-mail {
   background-image: url(./Sprite.png);
   background-position: 0px -640px;
   width: 32px;

@@ -5,6 +5,10 @@
     <p>第三步：index.js文件引入</p>
     <p>第四步：组件引入，如下：</p>
     <i class="icon icon-youtube"></i>
+    <p>【注】git clone 下来的要跑一遍npm install；</p>
+    <p>如果报语法错误，在package.json文件里面修改"lint": "eslint --ext .js,.vue src"</p>
+    <p>为"lint": "eslint --fix --ext .js,.vue src"</p>
+    <p>再执行npm run lint即可</p>
   </div>
 </template>
 
