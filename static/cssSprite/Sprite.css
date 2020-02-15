@@ -1,258 +1,81 @@
-/*
-Icon classes can be used entirely standalone. They are named after their original file names.
-
-Example usage in HTML:
-
-`display: block` sprite:
-<div class="icon-home"></div>
-
-To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-
-// CSS
-.icon {
-  display: inline-block;
-}
-
-// HTML
-<i class="icon icon-home"></i>
-*/
-.icon-mail {
-  background-image: url(./Sprite.png);
-  background-position: 0px 0px;
-  width: 32px;
-  height: 32px;
-}
-.icon-aim {
-  background-image: url(./Sprite.png);
-  background-position: 0px -32px;
-  width: 32px;
-  height: 32px;
-}
-.icon-blogger {
-  background-image: url(./Sprite.png);
-  background-position: 0px -64px;
-  width: 32px;
-  height: 32px;
-}
-.icon-deviant-art {
-  background-image: url(./Sprite.png);
-  background-position: 0px -96px;
-  width: 32px;
-  height: 32px;
-}
-.icon-digg {
-  background-image: url(./Sprite.png);
-  background-position: 0px -128px;
-  width: 32px;
-  height: 32px;
-}
-.icon-dribbble {
-  background-image: url(./Sprite.png);
-  background-position: 0px -160px;
-  width: 32px;
-  height: 32px;
-}
-.icon-dropbox {
-  background-image: url(./Sprite.png);
-  background-position: 0px -192px;
-  width: 32px;
-  height: 32px;
-}
-.icon-etsy {
-  background-image: url(./Sprite.png);
-  background-position: 0px -224px;
-  width: 32px;
-  height: 32px;
-}
-.icon-evernote {
-  background-image: url(./Sprite.png);
-  background-position: 0px -256px;
-  width: 32px;
-  height: 32px;
-}
-.icon-facebook {
-  background-image: url(./Sprite.png);
-  background-position: 0px -288px;
-  width: 32px;
-  height: 32px;
-}
-.icon-feed {
-  background-image: url(./Sprite.png);
-  background-position: 0px -320px;
-  width: 32px;
-  height: 32px;
-}
-.icon-flickr {
-  background-image: url(./Sprite.png);
-  background-position: 0px -352px;
-  width: 32px;
-  height: 32px;
-}
-.icon-forrst {
-  background-image: url(./Sprite.png);
-  background-position: 0px -384px;
-  width: 32px;
-  height: 32px;
-}
-.icon-foursquare {
-  background-image: url(./Sprite.png);
-  background-position: 0px -416px;
-  width: 32px;
-  height: 32px;
-}
-.icon-github {
-  background-image: url(./Sprite.png);
-  background-position: 0px -448px;
-  width: 32px;
-  height: 32px;
-}
-.icon-google {
-  background-image: url(./Sprite.png);
-  background-position: 0px -480px;
-  width: 32px;
-  height: 32px;
-}
-.icon-google+ {
-  background-image: url(./Sprite.png);
-  background-position: 0px -512px;
-  width: 32px;
-  height: 32px;
-}
-.icon-instagram {
-  background-image: url(./Sprite.png);
-  background-position: 0px -544px;
-  width: 32px;
-  height: 32px;
-}
-.icon-last-fm {
-  background-image: url(./Sprite.png);
-  background-position: 0px -576px;
-  width: 32px;
-  height: 32px;
-}
-.icon-linked-in {
-  background-image: url(./Sprite.png);
-  background-position: 0px -608px;
-  width: 32px;
-  height: 32px;
-}
-.icon-behance {
-  background-image: url(./Sprite.png);
-  background-position: 0px -640px;
-  width: 32px;
-  height: 32px;
-}
-.icon-myspace {
-  background-image: url(./Sprite.png);
-  background-position: 0px -672px;
-  width: 32px;
-  height: 32px;
-}
-.icon-paypal {
-  background-image: url(./Sprite.png);
-  background-position: 0px -704px;
-  width: 32px;
-  height: 32px;
-}
-.icon-picasa {
-  background-image: url(./Sprite.png);
-  background-position: 0px -736px;
-  width: 32px;
-  height: 32px;
-}
-.icon-pinterest {
-  background-image: url(./Sprite.png);
-  background-position: 0px -768px;
-  width: 32px;
-  height: 32px;
-}
-.icon-rdio {
-  background-image: url(./Sprite.png);
-  background-position: 0px -800px;
-  width: 32px;
-  height: 32px;
-}
-.icon-reddit {
-  background-image: url(./Sprite.png);
-  background-position: 0px -832px;
-  width: 32px;
-  height: 32px;
-}
-.icon-share-this {
-  background-image: url(./Sprite.png);
-  background-position: 0px -864px;
-  width: 32px;
-  height: 32px;
-}
-.icon-skype {
-  background-image: url(./Sprite.png);
-  background-position: 0px -896px;
-  width: 32px;
-  height: 32px;
-}
-.icon-soundcloud {
-  background-image: url(./Sprite.png);
-  background-position: 0px -928px;
-  width: 32px;
-  height: 32px;
-}
-.icon-spotify {
-  background-image: url(./Sprite.png);
-  background-position: 0px -960px;
-  width: 32px;
-  height: 32px;
-}
-.icon-stumbleupon {
-  background-image: url(./Sprite.png);
-  background-position: 0px -992px;
-  width: 32px;
-  height: 32px;
-}
-.icon-tumblr {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1024px;
-  width: 32px;
-  height: 32px;
-}
-.icon-twitter {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1056px;
-  width: 32px;
-  height: 32px;
-}
-.icon-viddlr {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1088px;
-  width: 32px;
-  height: 32px;
-}
-.icon-vimeo {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1120px;
-  width: 32px;
-  height: 32px;
-}
-.icon-wordpress {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1152px;
-  width: 32px;
-  height: 32px;
-}
-.icon-xing {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1184px;
-  width: 32px;
-  height: 32px;
-}
-.icon-yahoo {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1216px;
-  width: 32px;
-  height: 32px;
-}
-.icon-youtube {
-  background-image: url(./Sprite.png);
-  background-position: 0px -1248px;
-  width: 32px;
-  height: 32px;
-}
+.w-icon { background-image: url(./Sprite.png); }
+.w-icon-aim { width: 16px; height: 16px; }
+.w-icon-aim .w-icon, .w-icon-aim.w-icon { width: 32px; height: 32px; background-position: -36px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-behance { width: 16px; height: 16px; }
+.w-icon-behance .w-icon, .w-icon-behance.w-icon { width: 32px; height: 32px; background-position: 0px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-blogger { width: 16px; height: 16px; }
+.w-icon-blogger .w-icon, .w-icon-blogger.w-icon { width: 32px; height: 32px; background-position: 0px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-deviant-art { width: 16px; height: 16px; }
+.w-icon-deviant-art .w-icon, .w-icon-deviant-art.w-icon { width: 32px; height: 32px; background-position: -36px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-digg { width: 16px; height: 16px; }
+.w-icon-digg .w-icon, .w-icon-digg.w-icon { width: 32px; height: 32px; background-position: -72px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-dribbble { width: 16px; height: 16px; }
+.w-icon-dribbble .w-icon, .w-icon-dribbble.w-icon { width: 32px; height: 32px; background-position: -72px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-dropbox { width: 16px; height: 16px; }
+.w-icon-dropbox .w-icon, .w-icon-dropbox.w-icon { width: 32px; height: 32px; background-position: 0px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-etsy { width: 16px; height: 16px; }
+.w-icon-etsy .w-icon, .w-icon-etsy.w-icon { width: 32px; height: 32px; background-position: -36px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-evernote { width: 16px; height: 16px; }
+.w-icon-evernote .w-icon, .w-icon-evernote.w-icon { width: 32px; height: 32px; background-position: -72px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-facebook { width: 16px; height: 16px; }
+.w-icon-facebook .w-icon, .w-icon-facebook.w-icon { width: 32px; height: 32px; background-position: -108px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-feed { width: 16px; height: 16px; }
+.w-icon-feed .w-icon, .w-icon-feed.w-icon { width: 32px; height: 32px; background-position: -108px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-flickr { width: 16px; height: 16px; }
+.w-icon-flickr .w-icon, .w-icon-flickr.w-icon { width: 32px; height: 32px; background-position: -108px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-forrst { width: 16px; height: 16px; }
+.w-icon-forrst .w-icon, .w-icon-forrst.w-icon { width: 32px; height: 32px; background-position: 0px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-foursquare { width: 16px; height: 16px; }
+.w-icon-foursquare .w-icon, .w-icon-foursquare.w-icon { width: 32px; height: 32px; background-position: -36px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-github { width: 16px; height: 16px; }
+.w-icon-github .w-icon, .w-icon-github.w-icon { width: 32px; height: 32px; background-position: -72px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-google { width: 16px; height: 16px; }
+.w-icon-google .w-icon, .w-icon-google.w-icon { width: 32px; height: 32px; background-position: -108px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-google+ { width: 16px; height: 16px; }
+.w-icon-google+ .w-icon, .w-icon-google+.w-icon { width: 32px; height: 32px; background-position: -144px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-instagram { width: 16px; height: 16px; }
+.w-icon-instagram .w-icon, .w-icon-instagram.w-icon { width: 32px; height: 32px; background-position: -144px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-last-fm { width: 16px; height: 16px; }
+.w-icon-last-fm .w-icon, .w-icon-last-fm.w-icon { width: 32px; height: 32px; background-position: -144px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-linked-in { width: 16px; height: 16px; }
+.w-icon-linked-in .w-icon, .w-icon-linked-in.w-icon { width: 32px; height: 32px; background-position: -144px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-mail { width: 16px; height: 16px; }
+.w-icon-mail .w-icon, .w-icon-mail.w-icon { width: 32px; height: 32px; background-position: 0px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-myspace { width: 16px; height: 16px; }
+.w-icon-myspace .w-icon, .w-icon-myspace.w-icon { width: 32px; height: 32px; background-position: -36px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-paypal { width: 16px; height: 16px; }
+.w-icon-paypal .w-icon, .w-icon-paypal.w-icon { width: 32px; height: 32px; background-position: -72px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-picasa { width: 16px; height: 16px; }
+.w-icon-picasa .w-icon, .w-icon-picasa.w-icon { width: 32px; height: 32px; background-position: -108px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-pinterest { width: 16px; height: 16px; }
+.w-icon-pinterest .w-icon, .w-icon-pinterest.w-icon { width: 32px; height: 32px; background-position: -144px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-rdio { width: 16px; height: 16px; }
+.w-icon-rdio .w-icon, .w-icon-rdio.w-icon { width: 32px; height: 32px; background-position: -180px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-reddit { width: 16px; height: 16px; }
+.w-icon-reddit .w-icon, .w-icon-reddit.w-icon { width: 32px; height: 32px; background-position: -180px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-share-this { width: 16px; height: 16px; }
+.w-icon-share-this .w-icon, .w-icon-share-this.w-icon { width: 32px; height: 32px; background-position: -180px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-skype { width: 16px; height: 16px; }
+.w-icon-skype .w-icon, .w-icon-skype.w-icon { width: 32px; height: 32px; background-position: -180px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-soundcloud { width: 16px; height: 16px; }
+.w-icon-soundcloud .w-icon, .w-icon-soundcloud.w-icon { width: 32px; height: 32px; background-position: -180px -144px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-spotify { width: 16px; height: 16px; }
+.w-icon-spotify .w-icon, .w-icon-spotify.w-icon { width: 32px; height: 32px; background-position: 0px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-stumbleupon { width: 16px; height: 16px; }
+.w-icon-stumbleupon .w-icon, .w-icon-stumbleupon.w-icon { width: 32px; height: 32px; background-position: -36px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-tumblr { width: 16px; height: 16px; }
+.w-icon-tumblr .w-icon, .w-icon-tumblr.w-icon { width: 32px; height: 32px; background-position: -72px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-twitter { width: 16px; height: 16px; }
+.w-icon-twitter .w-icon, .w-icon-twitter.w-icon { width: 32px; height: 32px; background-position: -108px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-viddlr { width: 16px; height: 16px; }
+.w-icon-viddlr .w-icon, .w-icon-viddlr.w-icon { width: 32px; height: 32px; background-position: -144px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-vimeo { width: 16px; height: 16px; }
+.w-icon-vimeo .w-icon, .w-icon-vimeo.w-icon { width: 32px; height: 32px; background-position: -180px -180px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-wordpress { width: 16px; height: 16px; }
+.w-icon-wordpress .w-icon, .w-icon-wordpress.w-icon { width: 32px; height: 32px; background-position: -216px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-xing { width: 16px; height: 16px; }
+.w-icon-xing .w-icon, .w-icon-xing.w-icon { width: 32px; height: 32px; background-position: -216px -36px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-yahoo { width: 16px; height: 16px; }
+.w-icon-yahoo .w-icon, .w-icon-yahoo.w-icon { width: 32px; height: 32px; background-position: -216px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+.w-icon-youtube { width: 16px; height: 16px; }
+.w-icon-youtube .w-icon, .w-icon-youtube.w-icon { width: 32px; height: 32px; background-position: -216px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 

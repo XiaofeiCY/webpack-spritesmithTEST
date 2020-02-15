@@ -3,7 +3,9 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-const SpritesmithPlugin = require('webpack-spritesmith') // 创建一个对象
+ // 雪碧图--1、创建一个对象
+const SpritesmithPlugin = require('webpack-spritesmith')
+
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -19,6 +21,25 @@ const createLintingRule = () => ({
     emitWarning: !config.dev.showEslintErrorsInOverlay
   }
 })
+const templateFunction = function (data) {
+  // console.log(data.sprites);
+  const shared = '.w-icon { background-image: url(I); }'
+    .replace('I', data.sprites[0].image);
+  // 注意：此处默认图标使用的是二倍图
+  const perSprite = data.sprites.map(function (sprite) {
+    // background-size: SWpx SHpx;
+    return '.w-icon-N { width: SWpx; height: SHpx; }\n.w-icon-N .w-icon, .w-icon-N.w-icon { width: Wpx; height: Hpx; background-position: Xpx Ypx; margin-top: -SHpx; margin-left: -SWpx; display: inline-block;} '
+      .replace(/N/g, sprite.name)
+      .replace(/SW/g, sprite.width / 2)
+      .replace(/SH/g, sprite.height / 2)
+      .replace(/W/g, sprite.width)
+      .replace(/H/g, sprite.height)
+      .replace(/X/g, sprite.offset_x)
+      .replace(/Y/g, sprite.offset_y);
+  }).join('\n');
+
+  return shared + '\n' + perSprite;
+};
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -49,14 +70,24 @@ module.exports = {
       // 输出雪碧图文件及样式文件存放位置
       target: {
         image: path.resolve(__dirname, '../static/cssSprite/Sprite.png'),
-        css: path.resolve(__dirname, '../static/cssSprite/Sprite.css')
+        css: [
+          [path.resolve(__dirname, '../static/cssSprite/Sprite.css'), {
+            format: 'function_based_template'
+          }]
+        ]
+        // css: path.resolve(__dirname, '../static/cssSprite/Sprite.css')
+      },
+      customTemplates: {
+        'function_based_template': templateFunction,
       },
       // css样式文件中调用雪碧图地址写法
       apiOptions: {
         cssImageRef: './Sprite.png'
       },
       spritesmithOptions: {
-        algorithm: 'top-down'
+        algorithm: 'binary-tree',
+        padding: 4
+        // 具体参数参考：https://github.com/twolfson/layout#algorithms
       }
     })
   ],
