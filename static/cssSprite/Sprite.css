@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .w-icon { background-image: url(./Sprite.png); }
 .w-icon-aim { width: 16px; height: 16px; }
 .w-icon-aim .w-icon, .w-icon-aim.w-icon { width: 32px; height: 32px; background-position: -36px 0px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
@@ -79,3 +80,263 @@
 .w-icon-yahoo .w-icon, .w-icon-yahoo.w-icon { width: 32px; height: 32px; background-position: -216px -72px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
 .w-icon-youtube { width: 16px; height: 16px; }
 .w-icon-youtube .w-icon, .w-icon-youtube.w-icon { width: 32px; height: 32px; background-position: -216px -108px; margin-top: -16px; margin-left: -16px; display: inline-block;} 
+=======
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-aim {
+  background-image: url(./Sprite.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-behance {
+  background-image: url(./Sprite.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blogger {
+  background-image: url(./Sprite.png);
+  background-position: 0px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-deviant-art {
+  background-image: url(./Sprite.png);
+  background-position: 0px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-digg {
+  background-image: url(./Sprite.png);
+  background-position: 0px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dribbble {
+  background-image: url(./Sprite.png);
+  background-position: 0px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dropbox {
+  background-image: url(./Sprite.png);
+  background-position: 0px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-etsy {
+  background-image: url(./Sprite.png);
+  background-position: 0px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-evernote {
+  background-image: url(./Sprite.png);
+  background-position: 0px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-facebook {
+  background-image: url(./Sprite.png);
+  background-position: 0px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-feed {
+  background-image: url(./Sprite.png);
+  background-position: 0px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-flickr {
+  background-image: url(./Sprite.png);
+  background-position: 0px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-forrst {
+  background-image: url(./Sprite.png);
+  background-position: 0px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-foursquare {
+  background-image: url(./Sprite.png);
+  background-position: 0px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-github {
+  background-image: url(./Sprite.png);
+  background-position: 0px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-google {
+  background-image: url(./Sprite.png);
+  background-position: 0px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-google+ {
+  background-image: url(./Sprite.png);
+  background-position: 0px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-instagram {
+  background-image: url(./Sprite.png);
+  background-position: 0px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-last-fm {
+  background-image: url(./Sprite.png);
+  background-position: 0px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-linked-in {
+  background-image: url(./Sprite.png);
+  background-position: 0px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mail {
+  background-image: url(./Sprite.png);
+  background-position: 0px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-myspace {
+  background-image: url(./Sprite.png);
+  background-position: 0px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-paypal {
+  background-image: url(./Sprite.png);
+  background-position: 0px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-picasa {
+  background-image: url(./Sprite.png);
+  background-position: 0px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pinterest {
+  background-image: url(./Sprite.png);
+  background-position: 0px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rdio {
+  background-image: url(./Sprite.png);
+  background-position: 0px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-reddit {
+  background-image: url(./Sprite.png);
+  background-position: 0px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-share-this {
+  background-image: url(./Sprite.png);
+  background-position: 0px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-skype {
+  background-image: url(./Sprite.png);
+  background-position: 0px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soundcloud {
+  background-image: url(./Sprite.png);
+  background-position: 0px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spotify {
+  background-image: url(./Sprite.png);
+  background-position: 0px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stumbleupon {
+  background-image: url(./Sprite.png);
+  background-position: 0px -992px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tumblr {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1024px;
+  width: 32px;
+  height: 32px;
+}
+.icon-twitter {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1056px;
+  width: 32px;
+  height: 32px;
+}
+.icon-viddlr {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1088px;
+  width: 32px;
+  height: 32px;
+}
+.icon-vimeo {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1120px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wordpress {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1152px;
+  width: 32px;
+  height: 32px;
+}
+.icon-xing {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1184px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yahoo {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1216px;
+  width: 32px;
+  height: 32px;
+}
+.icon-youtube {
+  background-image: url(./Sprite.png);
+  background-position: 0px -1248px;
+  width: 32px;
+  height: 32px;
+}
+>>>>>>> d32b89dbcf528bc920e845cd86cce795cd514cd5
